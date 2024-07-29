@@ -4,6 +4,8 @@
    
    ```sh
    ./init_db.sh
+
+   docker volume create pgdata # (you may need to create this volume)
    ```
    
 2. **Start the Application**:
